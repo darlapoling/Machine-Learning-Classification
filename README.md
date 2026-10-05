@@ -12,12 +12,12 @@ In this project I used python to build a machine-learning model to classify, and
 - Methods: data cleaning, EDA, hypothesis testing, model evaluation, classification model.
  
 ## Process
-1. Data cleaning: analyzing the data for abnormalities or formatting issues, then splitting the data into testing (33%) and training groups (67%). 
+1. Data cleaning: analyzing the data for abnormalities or formatting issues, investigating outliers, then splitting the data into testing (33%) and training groups (67%). 
 2. Classifying/modeling the data: A Gaussian Naive Bayes classifier model is trained  with the training group. Then, predictions are made with the model on the test group. 
 3. Validation: Compare the test labels of cancer to the labels of cancer predicted by the classifier model. The proportion of results that were correctly predicted were 94%.
  
 ## Key Findings / Visualizations
-- Finding: The machine learning classification model is about 94% accurate. This model is fairly accurate, but applications in this context may require more research as the consequences of false negatives would be significant, as that would imply someone who has cancer who is inaccurately classified as not having cancer.
+- Finding: The machine learning classification model is about 94% accurate. This model is accurate, but applications in this context may require more research as the consequences of false negatives would be significant, as that would imply someone who has cancer who is inaccurately classified as not having cancer.
 
 ![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png)
  
@@ -26,10 +26,11 @@ At least one specific issue caught and corrected (methodology flaw, wrong assump
 
 I altered the project to be different from the source project in a number of ways. 
 1. I made the formatting of the code more professional and readable, organizing the structure into a main function with associated tasks being performed by the same function.
-2. I added a visualization and a more user-friendly way of having the model evaluation presented. 
+2. I added a visualization and a more user-friendly way of having the model evaluation presented.
+3. I have researched different ways to improve the accuracy of the predictions. Some methods include: increasing the sample size of the test group, ensuring that the data is properly cleaned and there are no outliers, and ensuring that the model assumptions are appropriate for the data. These are things that I would explore in a future project. 
  
 ## Next Steps
-My next steps for improving this project, or start a new project, would be to explore how these techniques could be used for pictures. 
+My next steps for improving this project, or start a new project, would be to explore how these techniques could be improved upon so that there is less error. I would also be interested to see how machine learning classification models can be used for pictures.
 
 # Resources Used
 
