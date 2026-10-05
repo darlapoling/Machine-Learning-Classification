@@ -34,6 +34,7 @@ My next steps for improving this project, or start a new project, would be to ex
 # Resources Used
 
 [Pie Charts](https://codesignal.com/learn/courses/reporting-and-visualization-for-data-analysts/lessons/creating-and-customizing-pie-charts-in-python-with-matplotlib)
-[Data Source](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
-[How To Build a Machine Learning Classifier in Python with Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)
-[Machine Learning with Scikit](https://scikit-learn.org/1.4/tutorial/basic/tutorial.html)
+  
+[Data Source](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)  
+[How To Build a Machine Learning Classifier in Python with Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)  
+[Machine Learning with Scikit](https://scikit-learn.org/1.4/tutorial/basic/tutorial.html)  
