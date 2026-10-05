@@ -35,3 +35,6 @@ I altered the project to be different from the source project in a number of way
 ## Next Steps
 My next steps for improving this project, or start a new project, would be to explore how these techniques could be used for pictures. 
 
+# Resources Used
+
+[Pie Charts](https://codesignal.com/learn/courses/reporting-and-visualization-for-data-analysts/lessons/creating-and-customizing-pie-charts-in-python-with-matplotlib)
