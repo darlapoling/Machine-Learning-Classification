@@ -1,3 +1,4 @@
+#Darla Poling, Oct 5 2026, https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn
 import sklearn
 from sklearn.datasets import load_breast_cancer
 from sklearn.naive_bayes import GaussianNB
