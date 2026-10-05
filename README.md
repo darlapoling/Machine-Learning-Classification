@@ -1,9 +1,6 @@
 # Machine Learning Classification in Python (Scikit-learn)
  
 ## Overview
-Brief description: what question this project answers, what dataset it uses, and why. 2-3 sentences. 
-Name the technique up front (e.g., "regression analysis," "EDA with pandas") rather than describing it vaguely.
-
 In this project I used python to build a machine-learning model to classify, and analyse the Breast Cancer Wisconsin Diagnostic Database within Scikit-learn. The model predicts cancer diagnoses for this dataset within 94% accuracy. 
  
 ## Dataset
@@ -15,15 +12,14 @@ In this project I used python to build a machine-learning model to classify, and
 - Methods: data cleaning, EDA, hypothesis testing, model evaluation, classification model.
  
 ## Process
-Walk through the actual steps taken, in order. This section carries the most weight for reviewers — document the method, not just the output.
-1. Data cleaning: [what was messy, how it was handled]
-2. Exploratory analysis: [what you looked for, what you found]
-3. Modeling/analysis: [what was built, why that approach]
-4. Validation: [how you checked the result held up]
+1. Data cleaning: analyzing the data for abnormalities or formatting issues, then splitting the data into testing (33%) and training groups (67%). 
+2. Classifying/modeling the data: A Gaussian Naive Bayes classifier model is trained  with the training group. Then, predictions are made with the model on the test group. 
+3. Validation: Compare the test labels of cancer to the labels of cancer predicted by the classifier model. The proportion of results that were correctly predicted were 94%.
  
 ## Key Findings / Visualizations
-- Finding 1: [insert chart/image + 1-2 sentence takeaway]
-- Finding 2: [insert chart/image + 1-2 sentence takeaway]
+- Finding: The machine learning classification model is about 94% accurate. This model is fairly accurate, but applications in this context may require more research as the consequences of false negatives would be significant, as that would imply someone who has cancer who is inaccurately classified as not having cancer.
+
+![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png)
  
 ## Mistakes & Fixes
 At least one specific issue caught and corrected (methodology flaw, wrong assumption, bad join, etc.) and how it was identified and fixed. 
@@ -38,3 +34,6 @@ My next steps for improving this project, or start a new project, would be to ex
 # Resources Used
 
 [Pie Charts](https://codesignal.com/learn/courses/reporting-and-visualization-for-data-analysts/lessons/creating-and-customizing-pie-charts-in-python-with-matplotlib)
+[Data Source](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)  
+[How To Build a Machine Learning Classifier in Python with Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)  
+[Machine Learning with Scikit](https://scikit-learn.org/1.4/tutorial/basic/tutorial.html)  
