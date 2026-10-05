@@ -12,13 +12,12 @@ In this project I used python to build a machine-learning model to classify, and
 - Methods: data cleaning, EDA, hypothesis testing, model evaluation, classification model.
  
 ## Process
-1. Data cleaning
-2. Exploratory analysis
-3. Modeling/analysis
-4. Validation
+1. Data cleaning: analyzing the data for abnormalities or formatting issues, then splitting the data into testing (33%) and training groups (67%). 
+2. Classifying/modeling the data: A Gaussian Naive Bayes classifier model is trained  with the training group. Then, predictions are made with the model on the test group. 
+3. Validation: Compare the test labels of cancer to the labels of cancer predicted by the classifier model. The proportion of results that were correctly predicted were 94%.
  
 ## Key Findings / Visualizations
-- Finding: The machine learning classification model is about 94% accurate.
+- Finding: The machine learning classification model is about 94% accurate. This model is fairly accurate, but applications in this context may require more research as the consequences of false negatives would be significant, as that would imply someone who has cancer who is inaccurately classified as not having cancer.
 
 ![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png)
  
