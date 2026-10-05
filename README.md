@@ -8,13 +8,11 @@ In this project I used python to build a machine-learning model to classify, and
  
 ## Dataset
 - Source: [load_breast_cancer](https://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_breast_cancer.html)
-- Size/scope: [rows, columns, time range]
-- Known limitations: [missing data, sampling issues, etc.]
+- Project Source: [How To Build a Machine Learning Classifier in Python with Scikit-learn](https://www.digitalocean.com/community/tutorials/how-to-build-a-machine-learning-classifier-in-python-with-scikit-learn)
  
 ## Tools & Techniques
-- Languages/libraries: [Python (pandas, scikit-learn), SQL, R, etc.]
-- Methods: [data cleaning, EDA, hypothesis testing, regression, classification model, etc.]
-- Environment: [Jupyter notebook for EDA, .py scripts for pipeline — note the split if applicable]
+- Languages/libraries: Python (scikit-learn)
+- Methods: data cleaning, EDA, hypothesis testing, model evaluation, classification model.
  
 ## Process
 Walk through the actual steps taken, in order. This section carries the most weight for reviewers — document the method, not just the output.
@@ -28,27 +26,12 @@ Walk through the actual steps taken, in order. This section carries the most wei
 - Finding 2: [insert chart/image + 1-2 sentence takeaway]
  
 ## Mistakes & Fixes
-At least one specific issue caught and corrected (methodology flaw, wrong assumption, bad join, etc.) and how it was identified and fixed. This is deliberate — it demonstrates judgment, not just a finished product.
- 
-## How to Run
-```
-git clone [repo link]
-pip install -r requirements.txt
-python main.py
-```
- 
-## Repo Structure
-```
-project-name/
-├── data/
-├── notebooks/       # EDA
-├── src/             # production-style .py scripts
-├── requirements.txt
-└── README.md
-```
+At least one specific issue caught and corrected (methodology flaw, wrong assumption, bad join, etc.) and how it was identified and fixed. 
+
+I altered the project to be different from the source project in a number of ways. 
+1. I made the formatting of the code more professional and readable, organizing the structure into a main function with associated tasks being performed by the same function.
+2. 
  
 ## Next Steps
-What you'd add or test further if continuing this project.
- 
-## Contact
-[Name] | [LinkedIn] | [Portfolio link] | [Email]
+My next steps for improving this project, or start a new project, would be to explore how these techniques could be used for pictures. 
+
