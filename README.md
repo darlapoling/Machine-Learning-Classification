@@ -1,9 +1,6 @@
 # Machine Learning Classification in Python (Scikit-learn)
  
 ## Overview
-Brief description: what question this project answers, what dataset it uses, and why. 2-3 sentences. 
-Name the technique up front (e.g., "regression analysis," "EDA with pandas") rather than describing it vaguely.
-
 In this project I used python to build a machine-learning model to classify, and analyse the Breast Cancer Wisconsin Diagnostic Database within Scikit-learn. The model predicts cancer diagnoses for this dataset within 94% accuracy. 
  
 ## Dataset
@@ -22,8 +19,7 @@ Walk through the actual steps taken, in order. This section carries the most wei
 4. Validation: [how you checked the result held up]
  
 ## Key Findings / Visualizations
-- Finding 1: [insert chart/image + 1-2 sentence takeaway]
-- Finding 2: [insert chart/image + 1-2 sentence takeaway]
+- Finding: ![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png) The machine learning classification model is about 94% accurate.
  
 ## Mistakes & Fixes
 At least one specific issue caught and corrected (methodology flaw, wrong assumption, bad join, etc.) and how it was identified and fixed. 
