@@ -30,7 +30,7 @@ At least one specific issue caught and corrected (methodology flaw, wrong assump
 
 I altered the project to be different from the source project in a number of ways. 
 1. I made the formatting of the code more professional and readable, organizing the structure into a main function with associated tasks being performed by the same function.
-2. 
+2. I added a visualization and a more user-friendly way of having the model evaluation presented. 
  
 ## Next Steps
 My next steps for improving this project, or start a new project, would be to explore how these techniques could be used for pictures. 
