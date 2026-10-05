@@ -12,14 +12,15 @@ In this project I used python to build a machine-learning model to classify, and
 - Methods: data cleaning, EDA, hypothesis testing, model evaluation, classification model.
  
 ## Process
-Walk through the actual steps taken, in order. This section carries the most weight for reviewers — document the method, not just the output.
-1. Data cleaning: [what was messy, how it was handled]
-2. Exploratory analysis: [what you looked for, what you found]
-3. Modeling/analysis: [what was built, why that approach]
-4. Validation: [how you checked the result held up]
+1. Data cleaning
+2. Exploratory analysis
+3. Modeling/analysis
+4. Validation
  
 ## Key Findings / Visualizations
-- Finding: ![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png) The machine learning classification model is about 94% accurate.
+- Finding: The machine learning classification model is about 94% accurate.
+
+![Pie Chart showing 94% Accurate and 6% Inaccurate](Figure_1.png)
  
 ## Mistakes & Fixes
 At least one specific issue caught and corrected (methodology flaw, wrong assumption, bad join, etc.) and how it was identified and fixed. 
