@@ -4,6 +4,7 @@ from sklearn.datasets import load_breast_cancer
 from sklearn.naive_bayes import GaussianNB
 from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
+import matplotlib.pyplot as plt
 
 data = load_breast_cancer()
 
@@ -46,11 +47,21 @@ def evaluate_accuracy(test_labels, preds):
     # Evaluate accuracy)
     return accuracy_score(test_labels, preds)
 
+def plot_data(accuracy):
+    sizes = [accuracy, 1 - accuracy]
+    labels = ['Accuracy', 'Inaccuracy']
+    
+    plt.pie(sizes, labels=labels, startangle=20)
+    plt.title('Accuracy Rate')
+    plt.axis('equal')  # ensures the pie chart is a perfect circle
+    plt.show()
+
 def main():
     train, test, train_labels, test_labels = clean_data()
     preds = classify_data(train, test, train_labels, test_labels)
     accuracy = evaluate_accuracy(test_labels, preds)
     print("Accuracy:", accuracy)
+    plot_data(accuracy)
 
 if __name__ == "__main__":
     main()
